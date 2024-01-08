@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON to HTML</title>
+</head>
+<body>
+
+  <ul id="navbarList">
+    <li class="active"> <a href="#" id="homeItem">Home</a> </li>
+    <li> <a href="#about" id="aboutItem">About </a> </li>
+    <li> <a href="#work" id="workItem">Work</a> </li>
+    <li> <a href="#contact" id="contactItem">Contact me  </a> </li>
+  </ul>
+
+  <ul id="footerList">
+    <!-- Existing list items -->
+    <!-- Add any existing list items here if needed -->
+    <li id="footerWork"><a href="#">Footer Work</a></li>
+    <!-- Add more existing list items if needed -->
+  </ul>
+
+  <script>
+    // Variables to store HTML elements
+    const homeLink = document.getElementById('homeItem');
+    const aboutLink = document.getElementById('aboutItem');
+    // Add more variables for other links if needed
+
+    // Function to update content for a specific link element
+    function updateLinkContent(linkElement, newValue) {
+      // Update content for the link element
+      linkElement.textContent = newValue;
+    }
+
+    // Fetch JSON data from the text file
+    fetch('t.txt')
+      .then(response => response.text())
+      .then(textData => {
+        // Parse the text data as JSON
+        const jsonData = JSON.parse(textData);
+
+        // Update content for existing navbar link elements using variables
+        updateLinkContent(homeLink, jsonData.navbar.variable1);
+        updateLinkContent(aboutLink, jsonData.navbar.variable2);
+
+        // Update content for existing footer link elements
+        const footerWorkLink = document.getElementById('footerWork');
+        updateLinkContent(footerWorkLink, jsonData.footer.variable3);
+        // Add more updates for other footer links if needed
+      })
+      .catch(error => console.error('Error fetching or parsing JSON:', error));
+  </script>
+
+</body>
+</html>

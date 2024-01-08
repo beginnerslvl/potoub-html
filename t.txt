@@ -1,0 +1,47 @@
+{
+  "sidebar": {
+    "sidebar1": "Home",
+    "sidebar2": "Products",
+    "sidebar3": "Features",
+    "sidebar4": "Contact us"
+  },
+  "banner": {
+    "banner0": "Enhance Your Email Security",
+    "banner1": "Protect your business communications with our advanced email security tools. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+    "banner2": "Explore Now"
+  },
+
+  "banner1": {
+    "banner0": "Secure Your Inbox",
+    "banner1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+    "banner2": "Learn More"
+  },
+
+  "banner2": {
+    "banner0": "Defend Against Cyber Threats",
+    "banner1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ",
+    "banner2": "Discover Solutions"
+  },
+  
+  "software": {
+    "about1": "Why Choose Our Email Security Software",
+    "about2": "Elevate your email security with our cutting-edge software. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+  },
+  
+  "details": {
+    "details1": "Advanced Customization",
+    "details2": "Unmatched Flexibility",
+    "details3": "Impeccable Cleanliness",
+    "details4": "Ready for High Ratings"
+  },
+  
+  "introduction": {
+    "intro_title": "Empowering Your Email Security",
+    "intro": "Fortify your email communications against evolving cyber threats. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+  },
+
+  "works": {
+    "intro": "How Our Software Works",
+    "how_works": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis "
+  }
+}
